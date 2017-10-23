@@ -1,0 +1,127 @@
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1.1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;   
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/*  END RESET */
+
+#pagewrap {
+    margin: 100px;
+} /* body unden at være det */
+
+h1, h2, h3, p {
+    font-family:sans-serif;
+} /* laver om på skrifttypen på alle overskrifter */
+
+header {
+    background-color:azure;
+    text-align:center;
+    color:darkblue;
+    padding: 0.2em;
+} /* laver "boksen" overskriften står i lyseblå, flytter overskriften ind i midten, laver overskriften mørkeblå, gør mellemrumemt fra indholdet til rammen (som ikke er der) større.*/
+
+header h1 {
+    font-size: 2.5em;
+} /* laver "Hallberg Rassy P28" større. */
+
+header p {
+    font-size: 1.5em;
+} /* laver "En klassikker..." større*/
+
+#billedsektion {
+    float: right;
+    background-color: gainsboro;
+    padding: 0.1em;
+    margin: 0.5em;
+    margin-right: 0em;
+} /* holder billedesektionen til højre for teksten, har gjort boksen grå, plads rundt om billedesektionen bort set for højre side.  */
+
+#stortbillede {
+    width: 500px;
+} /* gør billedet 500 pilxeæs bredt */
+
+#beskrivelse h2 {
+    font-weight:bold;
+    font-size: 1.5em;
+    padding-top: 0.3em;
+} /* har gjort "Om P28 fed, ændret størrelsen, og givet plads for oven. */
+
+blockquote {
+    font-family: sans-serif;
+    padding: 0.1em;
+} /* har ændret billedetekst font og givet plads rundt om. */
+
+#faktaboks {
+    background-color: azure;
+    color: darkblue;
+    padding: 0.3em;
+    float: right;
+    width: 25%;
+} /* har ændret boks farven, tekst farven, givet plads rundt om teksten, skubbet boksen til højre for billedet, gjort boksen 25% bred */
+
+#indhold {
+    float: left;
+    width: 70%;
+} /* skubbet teksten til venstre, har givet det 70% bredde.  */
+
+footer {
+    clear: both;
+    padding: 0.5em;
+    background-color: azure;
+    color: darkblue;
+    text-align: center;
+    margin-top: 0.4em;
+}  /* har flyttet copyright i bunden, givet plads rundt om tekst i boks, har gjort teksten blå, flyttet teksten ind i midten, har givet plads uden om boks. */
+
+aside p {
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+} /* har givet plads mellem afsnitene i faktaboksen, har gjort linjeafstanden større. */
+
+aside h3 {
+    font-size: 1.25em;
+    font-weight: 600;
+} /* har gjort "Data" og "Links" større, gjort dem federe. */
+
+a:link {
+    text-decoration: underline;
+    color: black;
+    transition: all 3s ease;
+} /* har givet linksene understregning, gjort linksenes tekst sort, Transition pas */
+
+a:hover {
+    color: black;
+    transition: all 3s ease;
+} /* Pas */
+
+
+
+
+
